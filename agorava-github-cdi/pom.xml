@@ -13,7 +13,7 @@
 	<parent>
 		<artifactId>agorava-github-parent</artifactId>
 		<groupId>org.agorava</groupId>
-		<version>0.7.0</version>
+		<version>0.7.1-SNAPSHOT</version>
 	</parent>
 	<artifactId>agorava-github-cdi</artifactId>
 
