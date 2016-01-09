@@ -29,8 +29,8 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>agorava-github-api</module><!-- 
-        <module>agorava-github-cdi</module>  -->
+        <module>agorava-github-api</module> 
+        <module>agorava-github-cdi</module>
     </modules>
 
     <dependencyManagement>
