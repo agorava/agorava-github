@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!--
-  ~ Copyright 2014 Agorava
+  ~ Copyright 2016 Agorava
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -54,4 +54,52 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+    
+    	<developers>
+		<developer>
+			<name>Werner Keil</name>
+			<email>werner(at)catmedia.us</email>
+			<url>http://twitter.com/wernerkeil</url>
+			<organization>Agorava</organization>
+			<organizationUrl>http://agorava.org</organizationUrl>
+			<roles>
+				<role>Module Lead</role>
+				<role>Developer</role>
+			</roles>
+			<timezone>CET</timezone>
+		</developer>
+	</developers>
+
+	<scm>
+		<connection>scm:git:git://github.com/keilw/agorava-xing.git</connection>
+		<developerConnection>scm:git:git@github.com:keilw/agorava-xing.git</developerConnection>
+		<url>http://github.com/keilw/agorava-xing</url>
+		<tag>HEAD</tag>
+	</scm>
+
+	<!-- Additional repositories -->
+	<!-- Helps to resolve Parent POM and Snapshot artifacts -->
+	<repositories>
+		<repository>
+			<id>jcenter</id>
+			<name>JCenter</name>
+			<url>http://jcenter.bintray.com</url>
+		</repository>
+		<repository>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+			<id>bintray-release</id>
+			<name>libs-release</name>
+			<url>http://oss.jfrog.org/artifactory/libs-release</url>
+		</repository>
+		<repository>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+			<id>bintray-snapshot</id>
+			<name>libs-snapshot</name>
+			<url>http://oss.jfrog.org/artifactory/libs-snapshot</url>
+		</repository>
+	</repositories>
 </project>
