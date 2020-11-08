@@ -5,6 +5,3 @@ agorava-github
 
 [![Circle CI](https://circleci.com/gh/agorava/agorava-github/tree/develop.svg?style=svg)](https://circleci.com/gh/agorava/agorava-github/tree/develop)
 [![License](http://img.shields.io/badge/license-Apache2-red.svg)](http://opensource.org/licenses/apache-2.0)
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/keilw/agorava-github/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
