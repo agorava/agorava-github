@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!--
-  ~ Copyright 2016 Agorava
+  ~ Copyright 2016-2020 Agorava
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -21,7 +21,7 @@
     <parent>
         <artifactId>agorava-parent</artifactId>
         <groupId>org.agorava</groupId>
-		<version>0.7.1-SNAPSHOT</version>
+		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 
     <modelVersion>4.0.0</modelVersion>
@@ -38,7 +38,7 @@
             <dependency>
                 <groupId>org.agorava</groupId>
                 <artifactId>agorava-bom</artifactId>
-				<version>0.7.1-SNAPSHOT</version>
+				<version>${project.version}</version>
 				<type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -71,9 +71,9 @@
 	</developers>
 
 	<scm>
-		<connection>scm:git:git://github.com/keilw/agorava-xing.git</connection>
-		<developerConnection>scm:git:git@github.com:keilw/agorava-xing.git</developerConnection>
-		<url>http://github.com/keilw/agorava-xing</url>
+		<connection>scm:git:git://github.com/keilw/agorava-github.git</connection>
+		<developerConnection>scm:git:git@github.com:keilw/agorava-github.git</developerConnection>
+		<url>https://github.com/keilw/agorava-github</url>
 		<tag>HEAD</tag>
 	</scm>
 
@@ -83,7 +83,7 @@
 		<repository>
 			<id>jcenter</id>
 			<name>JCenter</name>
-			<url>http://jcenter.bintray.com</url>
+			<url>https://jcenter.bintray.com</url>
 		</repository>
 		<repository>
 			<snapshots>
@@ -91,7 +91,7 @@
 			</snapshots>
 			<id>bintray-release</id>
 			<name>libs-release</name>
-			<url>http://oss.jfrog.org/artifactory/libs-release</url>
+			<url>https://oss.jfrog.org/artifactory/libs-release</url>
 		</repository>
 		<repository>
 			<snapshots>
@@ -99,7 +99,7 @@
 			</snapshots>
 			<id>bintray-snapshot</id>
 			<name>libs-snapshot</name>
-			<url>http://oss.jfrog.org/artifactory/libs-snapshot</url>
+			<url>https://oss.jfrog.org/artifactory/libs-snapshot</url>
 		</repository>
 	</repositories>
 </project>
